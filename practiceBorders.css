@@ -1,0 +1,94 @@
+*
+{
+    border-radius: 5px;
+}
+#title1
+{
+    border-top: 1px solid green;
+}
+#title2
+{
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+#title3
+{
+    border-left: 1px solid orange;
+}
+#title4
+{
+    border-right: 1px solid blueviolet;
+}
+#title5
+{
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+#title6
+{
+    border-top: 1px solid green;
+    border-left: 1px solid green;
+}
+#title7
+{
+    border-top: 1px solid green;
+    border-right: 1px solid green;
+}
+#title8
+{
+    border-top: 1px solid green;
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+}
+#title9
+{
+    border-bottom: 1px solid green;
+    border-left: 1px solid green;
+    border-right: 1px solid green; 
+/*     border-color: green red orange;
+    border-width:1px 3px 2px ;
+    border-bottom-width: 0px;
+    border-style: solid dotted ; */
+}
+#title10{
+    border: 1px solid red;
+}
+.title
+{
+    background-color: blue !important;
+}
+.title
+{
+    background-color: green;
+}
+.title
+{
+    background-color: rebeccapurple;
+}
+#title11,#title12{
+    background-color: coral;
+    outline-color: blue;
+    outline-width: 5px;
+    outline-style: double;
+}
+.container
+{
+    background-color: crimson;
+    color: white;
+    padding: 50px;
+    border: 3px solid black;
+    width: 500px;
+    box-sizing:border-box !important;
+    -ms-box-sizing:border-box !important;
+}
+/*
+box-sizing
+content-box -->la largeur (width ) d'un element est consacree uniquement au contenue(border/padding execlue)
+padding-box non supporte width=content+padding
+border-box-->width d'un element comporte content+paddding+border
+   -moz- mozilla firefox
+    -ms- produit microsoft
+    -webkit- google/safari/android
+    -o-
+*/
+ 
